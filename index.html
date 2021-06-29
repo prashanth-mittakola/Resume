@@ -8,9 +8,8 @@
     <title>Mittakola Prashanth Resume</title>
 </head>
 <body>
-    <div class="container">
-        <div class="resume p-4">
-            <div class="d-flex bd-highlight">
+    <div class="my-container">
+        <div class="resume p-4 d-flex justify-center">
                 <div class="left">
                     <div class="p-2 flex-fill bd-highlight">
                         <div style="height: 150px;display: flex;flex-direction: column;justify-content: center;">
@@ -101,9 +100,9 @@
                             <div class="my-4">
                                 <strong style="color: rgb(99, 167, 255);">Contact :</strong>
                             </div>
-                            <p><strong>Email</strong> : mittakolaprashanth@gmail.com</p>
-                            <p><strong>Mob</strong> : +91 88662 38837</p>
-                            <p><strong>Address</strong> : k-108, Suman sangini, near amazia water park, parvat patiya, Surat-395010.</p>
+                            <p><strong>Email:</strong> mittakolaprashanth@gmail.com</p>
+                            <p><strong>Mob:</strong> +91 88662 38837</p>
+                            <p><strong>Address:</strong> k-108, Suman sangini, near amazia water park, parvat patiya, Surat-395010.</p>
                         </div>
                         <div class="my-4">
                             <div class="my-4">
@@ -159,17 +158,20 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
-        <div style="text-align: center; padding: 20px 0;">
-            url: <a style="padding:0 20px;" href="http://prashanth-mittakola.github.io/resume">prashanth-mittakola.github.io/resume</a>
-        </div>
+    </div>
+    <div style="text-align: center; padding: 20px 0;">
+        url: <a style="padding:0 20px;" href="http://prashanth-mittakola.github.io/resume">prashanth-mittakola.github.io/resume</a>
     </div>
 <style>
     *{
     margin: 0;
     padding: 0;
     text-transform: capitalize;
+    }
+    .my-container, .resume{
+        width: 100%;
+        overflow-y: scroll;
     }
     .d-flex p{
     margin: 0;
@@ -204,20 +206,24 @@
     }
     .left{
         max-width: 700px; 
-        margin:0 100px;
+        margin:0 50px;
     }
     .right{
         max-width: 350px; 
-        margin:0 100px;
+        margin:0 50px;
     }
     .container{
         margin: 0 auto;
+    }
+    .justify-center{
+        justify-content: center;
     }
     @media only screen and (max-width: 768px) {
         .left{
             margin:0 20px;
         }
         .right{
+            /* width: 350px;  */
             margin:0 20px;
         }
     }
